@@ -1,14 +1,3 @@
-const express = require("express")
-const app = express()
-
-app.get('/', (req, res) => {
-  res.send('Yo boi!!')
-})
-
-app.listen(3000, () => {
-console.log("Your Project is ready!")
-})
-
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
